@@ -1,0 +1,16 @@
+td {
+    border: 1px solid black;
+    padding-bottom: 10px;
+}
+
+td:nth-child(even) {
+    background: gray;
+}
+
+tr:nth-child(9) td:nth-child(3) {
+    color: red;
+}
+
+td::first-letter {
+    font-size: 25px;
+}
