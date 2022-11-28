@@ -7,7 +7,7 @@ td:nth-child(even) {
     background: gray;
 }
 
-tr:nth-child(9) td:nth-child(3) {
+tr:nth-child(9) td:nth-child(-n+3) {
     color: red;
 }
 
